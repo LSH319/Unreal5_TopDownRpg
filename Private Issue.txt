@@ -1,0 +1,22 @@
+까먹지 않도록 생각할 것
+
+스켈레톤 메시에 소켓 추가 및 조정
+애니메이션 블루프린트 탬플릿
+
+개인적인 이슈
+
+처음 프로젝트를 커밋 한 후 깃허브에 푸쉬했으나 지속적인 오류 발생
+1. error: RPC failed; HTTP 502 curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+2. error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054
+해결법을 찾기위해 구글링을 하여 
+git config --global http.postBuffer 524288000 로 버퍼를 늘리거나 
+git config --global http.version HTTP/1.1 로 http 변경을 했으나 오류가 계속 발생
+force를 통해 강제 push도 시도해보았으나 실패
+
+프로젝트를 처음부터 다시 만든 후 푸쉬 여부 확인
+푸쉬 확인 후 이전 작업물 진행
+그 후 커밋내역 확인하는 도중 gitignore가 작동하지 않음을 인지
+확인결과 gitignore가 txt파일임을 확인
+수정 후 푸쉬, 푸쉬 성공
+
+---------------------------------------------------------------------------------------
