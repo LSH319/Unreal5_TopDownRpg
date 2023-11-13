@@ -1166,3 +1166,397 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.11.13-06.14.46:834][901]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2023.11.13-06.23.40:840][653]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:08.707 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 35723 files in 36762 folders with total size 2270 MiB.
 [2023.11.13-07.23.40:438][461]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:08.304 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 35723 files in 36762 folders with total size 2270 MiB.
+[2023.11.13-08.09.06:389][731]Candidate modules for hot reload:
+[2023.11.13-08.09.06:389][731]  Aura
+[2023.11.13-08.09.06:402][731]Launching UnrealBuildTool... [E:/Unreal/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Aura,2173 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk]
+[2023.11.13-08.09.06:408][731]Warning: Starting HotReload took  0.1s.
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: New page: 컴파일 - 2023. 11. 14. 오전 2:09:18
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Aura,2173 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Log file: C:\Users\USER\AppData\Local\UnrealBuildTool\Log.txt
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Project\Aura).
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Creating makefile for AuraEditor (no existing makefile)
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Module 'GamePlayAbilities' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayAbilities'?
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Module 'GamePlayTags' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayTags'?
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Module 'GamePlayTasks' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayTasks'?
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Module 'GamePlayAbilities' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayAbilities'?
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Error: E:\Project\Aura\Source\Aura\Private\Character\AuraCharacter.cpp(1) : error: Expected AuraCharacter.h to be first header included.
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Building AuraEditor...
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: Using Visual Studio 2022 14.36.32542 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: [Upgrade]
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.11.13-08.09.18:429][904]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in AuraEditor.Target.cs.
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [Upgrade]
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [Adaptive Build] Excluded from Aura unity file: AuraAttributeSet.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2023.11.13-08.09.18:431][904]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: ------ Building 11 action(s) started ------
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [1/11] Compile [x64] Aura.init.gen.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [2/11] Compile [x64] AuraEnemy.gen.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [3/11] Compile [x64] AuraCharacter.gen.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [4/11] Compile [x64] AuraPlayerState.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [5/11] Compile [x64] AuraEnemy.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [6/11] Compile [x64] AuraCharacter.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [7/11] Compile [x64] AuraAttributeSet.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [8/11] Compile [x64] AuraAttributeSet.gen.cpp
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [9/11] Link [x64] UnrealEditor-Aura-2173.lib
+[2023.11.13-08.09.18:431][904]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2173.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2173.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [10/11] Link [x64] UnrealEditor-Aura-2173.dll
+[2023.11.13-08.09.18:431][904]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2173.sup.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2173.sup.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: [11/11] WriteMetadata AuraEditor.target
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: Total time in Parallel executor: 7.45 seconds
+[2023.11.13-08.09.18:431][904]CompilerResultsLog: Total execution time: 11.53 seconds
+[2023.11.13-08.09.18:431][904]LogMainFrame: MainFrame: Module compiling took 12.083 seconds
+[2023.11.13-08.09.18:556][904]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2023.11.13-08.09.18:631][904]LogClass: UPackage /Script/Aura Reload.
+[2023.11.13-08.09.18:631][904]LogClass: UClass AuraAttributeSet Reload.
+[2023.11.13-08.09.18:635][904]LogClass: Could not find existing class AuraAttributeSet in package /Script/Aura for reload, assuming new or modified class
+[2023.11.13-08.09.18:635][904]LogClass: Function OnRep_Health is new or belongs to a modified class.
+[2023.11.13-08.09.18:635][904]LogClass: Function OnRep_Mana is new or belongs to a modified class.
+[2023.11.13-08.09.18:635][904]LogClass: Function OnRep_MaxHealth is new or belongs to a modified class.
+[2023.11.13-08.09.18:635][904]LogClass: Function OnRep_MaxMana is new or belongs to a modified class.
+[2023.11.13-08.09.18:674][904]Re-instancing AuraAttributeSet after reload.
+[2023.11.13-08.09.18:675][904]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2023.11.13-08.09.20:239][904]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.563 s
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: === Handled ensure: ===
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: 
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: Ensure condition failed: ArchetypeIndex > OldObjIndex  [File:D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp] [Line: 1926] 
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: 
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: Stack: 
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe14162201 UnrealEditor-UnrealEd.dll!ReplaceObjectHelper() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:1926]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1415f342 UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:2508]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1415e374 UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:1657]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1415827c UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:784]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141588ea UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:846]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141bc82b UnrealEditor-UnrealEd.dll!UE::Reload::Private::FReloadClassHelper::ReinstanceClass() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\ReloadUtilities.cpp:738]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141bdb55 UnrealEditor-UnrealEd.dll!UE::Reload::Private::FReloadClassHelper::ReinstanceClasses() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\ReloadUtilities.cpp:686]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141bbdf3 UnrealEditor-UnrealEd.dll!FReload::Reinstance() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\ReloadUtilities.cpp:1138]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1816b5c3 UnrealEditor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectBase.cpp:921]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1801abc5 UnrealEditor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(FName,bool),FDefaultDelegateUserPolicy>::ExecuteIfSafe() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:777]
+[2023.11.13-08.09.20:239][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b899163 UnrealEditor-Core.dll!TMulticastDelegate<void __cdecl(FName,bool),FDefaultDelegateUserPolicy>::Broadcast() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:956]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b8c584b UnrealEditor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:624]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b8c4184 UnrealEditor-Core.dll!FModuleManager::LoadModule() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:390]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e13b0d8 UnrealEditor-HotReload.dll!FHotReloadModule::DoHotReloadInternal() [D:\build\++UE5\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:819]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e138037 UnrealEditor-HotReload.dll!UE::Core::Private::Function::TFunctionRefCaller<`FHotReloadModule::RebindPackagesInternal'::`2'::<lambda_1>,void __cdecl(TMap<FName,FString,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<FName,FString,0> > const &,bool,enum ECompilationResult::Type)>::Call() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Templates\Function.h:480]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e138d39 UnrealEditor-HotReload.dll!FHotReloadModule::CheckForFinishedModuleDLLCompile() [D:\build\++UE5\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1689]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e145939 UnrealEditor-HotReload.dll!FHotReloadModule::Tick() [D:\build\++UE5\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1236]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e13be6d UnrealEditor-HotReload.dll!TBaseRawMethodDelegateInstance<0,FHotReloadModule,bool __cdecl(float),FDefaultDelegateUserPolicy>::Execute() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:518]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b536870 UnrealEditor-Core.dll!FTSTicker::FElement::Fire() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Containers\Ticker.cpp:157]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b55541b UnrealEditor-Core.dll!FTSTicker::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Containers\Ticker.cpp:110]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b15cea9 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:6073]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b17d28c UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:188]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b17d37a UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:118]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b180854 UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:258]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b196984 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:298]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b199d7a UnrealEditor.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ffe98d97344 KERNEL32.DLL!UnknownFunction []
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: [Callstack] 0x00007ffe9a6826b1 ntdll.dll!UnknownFunction []
+[2023.11.13-08.09.20:240][904]LogOutputDevice: Error: 
+[2023.11.13-08.09.20:243][904]LogStats:                SubmitErrorReport -  0.000 s
+[2023.11.13-08.09.22:876][904]LogStats:                    SendNewReport -  2.633 s
+[2023.11.13-08.09.22:876][904]LogStats:             FDebug::EnsureFailed -  4.201 s
+[2023.11.13-08.09.22:876][904]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2023.11.13-08.09.22:889][904]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.013 s
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: === Handled ensure: ===
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: 
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced  [File:D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp] [Line: 1950] 
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: Reinstancing non-actor (/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_1.AttributeSet); failed to resolve archetype object - property values may be lost.
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: Stack: 
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe14162219 UnrealEditor-UnrealEd.dll!ReplaceObjectHelper() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:1950]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1415f342 UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:2508]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1415e374 UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:1657]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1415827c UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:784]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141588ea UnrealEditor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp:846]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141bc82b UnrealEditor-UnrealEd.dll!UE::Reload::Private::FReloadClassHelper::ReinstanceClass() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\ReloadUtilities.cpp:738]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141bdb55 UnrealEditor-UnrealEd.dll!UE::Reload::Private::FReloadClassHelper::ReinstanceClasses() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\ReloadUtilities.cpp:686]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe141bbdf3 UnrealEditor-UnrealEd.dll!FReload::Reinstance() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\ReloadUtilities.cpp:1138]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1816b5c3 UnrealEditor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectBase.cpp:921]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe1801abc5 UnrealEditor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(FName,bool),FDefaultDelegateUserPolicy>::ExecuteIfSafe() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:777]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b899163 UnrealEditor-Core.dll!TMulticastDelegate<void __cdecl(FName,bool),FDefaultDelegateUserPolicy>::Broadcast() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:956]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b8c584b UnrealEditor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:624]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b8c4184 UnrealEditor-Core.dll!FModuleManager::LoadModule() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:390]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e13b0d8 UnrealEditor-HotReload.dll!FHotReloadModule::DoHotReloadInternal() [D:\build\++UE5\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:819]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e138037 UnrealEditor-HotReload.dll!UE::Core::Private::Function::TFunctionRefCaller<`FHotReloadModule::RebindPackagesInternal'::`2'::<lambda_1>,void __cdecl(TMap<FName,FString,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<FName,FString,0> > const &,bool,enum ECompilationResult::Type)>::Call() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Templates\Function.h:480]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e138d39 UnrealEditor-HotReload.dll!FHotReloadModule::CheckForFinishedModuleDLLCompile() [D:\build\++UE5\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1689]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e145939 UnrealEditor-HotReload.dll!FHotReloadModule::Tick() [D:\build\++UE5\Sync\Engine\Source\Developer\HotReload\Private\HotReload.cpp:1236]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x0000025a2e13be6d UnrealEditor-HotReload.dll!TBaseRawMethodDelegateInstance<0,FHotReloadModule,bool __cdecl(float),FDefaultDelegateUserPolicy>::Execute() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:518]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b536870 UnrealEditor-Core.dll!FTSTicker::FElement::Fire() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Containers\Ticker.cpp:157]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe2b55541b UnrealEditor-Core.dll!FTSTicker::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Containers\Ticker.cpp:110]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b15cea9 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:6073]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b17d28c UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:188]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b17d37a UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:118]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b180854 UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:258]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b196984 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:298]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ff64b199d7a UnrealEditor.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe98d97344 KERNEL32.DLL!UnknownFunction []
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: [Callstack] 0x00007ffe9a6826b1 ntdll.dll!UnknownFunction []
+[2023.11.13-08.09.22:889][904]LogOutputDevice: Error: 
+[2023.11.13-08.09.22:897][904]LogStats:                SubmitErrorReport -  0.000 s
+[2023.11.13-08.09.29:214][904]LogStats:                    SendNewReport -  6.317 s
+[2023.11.13-08.09.29:214][904]LogStats:             FDebug::EnsureFailed -  6.338 s
+[2023.11.13-08.09.29:451][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.13-08.09.29:533][904]Display: HotReload took 23.2s.
+[2023.11.13-08.09.29:533][904]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 8 classes unchanged
+[2023.11.13-08.09.30:339][904]LogAutomationController: Ignoring very large delta of 11.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-08.09.30:350][905]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-08.09.32:875][ 31]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.11.13-08.09.32:894][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.13-08.09.32:894][ 31]PIE: New page: PIE 세션: StartupMap (2023. 11. 14. 오전 2:09:32)
+[2023.11.13-08.09.32:903][ 31]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.11.13-08.09.32:904][ 31]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2023.11.13-08.09.32:906][ 31]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-08.09.32:911][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005090s)
+[2023.11.13-08.09.32:911][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.005217s)
+[2023.11.13-08.09.33:008][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.11.13-08.09.33:011][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-08.09.33:011][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-08.09.33:012][ 31]LogAIModule: Creating AISystem for world StartupMap
+[2023.11.13-08.09.33:012][ 31]LogPlayLevel: PIE: World Init took: (0.002832s)
+[2023.11.13-08.09.33:013][ 31]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.13-08.09.33:013][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.13-08.09.33:013][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.13-08.09.33:014][ 31]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.13-08.09.33:014][ 31]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.13-08.09.33:014][ 31]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.13-08.09.33:016][ 31]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.13-08.09.33:119][ 31]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2023.11.13-08.09.33:119][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.13-08.09.33:119][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.13-08.09.33:119][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.13-08.09.33:120][ 31]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.11.13-08.09.33:120][ 31]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.11.13-08.09.33:122][ 31]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.11.13-08.09.33:122][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.11.13-08.09.33:122][ 31]LogInit: FAudioDevice initialized with ID 2.
+[2023.11.13-08.09.33:122][ 31]LogAudio: Display: Audio Device (ID: 2) registered with world 'StartupMap'.
+[2023.11.13-08.09.33:122][ 31]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.11.13-08.09.33:136][ 31]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2023.11.13-08.09.33:140][ 31]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.11.13-17.09.33
+[2023.11.13-08.09.33:154][ 31]LogWorld: Bringing up level for play took: 0.018124
+[2023.11.13-08.09.33:158][ 31]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.11.13-08.09.33:212][ 31]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.13-08.09.33:212][ 31]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.13-08.09.33:213][ 31]PIE: 서버가 로그인했습니다.
+[2023.11.13-08.09.33:214][ 31]PIE: 에디터에서 플레이 총 시작 시간 0.326초입니다.
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: ================================================
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: Total job queries 28, among them cache hits 14 (50.00%)
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: Tracking 14 distinct input hashes that result in 9 distinct outputs (64.29%)
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: RAM used: 289.76 KiB of 1.60 GiB budget. Usage: 0.02%
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.13-08.09.33:426][ 33]LogShaderCompilers: Display: ================================================
+[2023.11.13-08.09.37:276][262]LogSlate: Took 0.008370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.11.13-08.09.37:276][262]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2023.11.13-08.09.37:286][262]LogSlate: Took 0.009478 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.11.13-08.09.52:534][647]Cmd: showdebug abilitysystem
+[2023.11.13-08.09.52:545][647]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.13-08.11.22:048][ 85]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2023.11.13-08.11.55:517][856]Cmd: NextDebugTarget
+[2023.11.13-08.11.57:076][930]Cmd: NextDebugTarget
+[2023.11.13-08.11.57:480][950]Cmd: NextDebugTarget
+[2023.11.13-08.11.58:168][984]Cmd: NextDebugTarget
+[2023.11.13-08.11.59:460][ 48]Cmd: NextDebugTarget
+[2023.11.13-08.12.00:652][107]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.01:178][133]Cmd: NextDebugTarget
+[2023.11.13-08.12.02:186][183]Cmd: NextDebugTarget
+[2023.11.13-08.12.02:996][223]Cmd: NextDebugTarget
+[2023.11.13-08.12.06:349][389]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.06:913][417]Cmd: NextDebugTarget
+[2023.11.13-08.12.07:318][437]Cmd: NextDebugTarget
+[2023.11.13-08.12.07:782][460]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.08:228][482]Cmd: NextDebugTarget
+[2023.11.13-08.12.08:572][499]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.09:137][527]Cmd: NextDebugTarget
+[2023.11.13-08.12.09:622][551]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.11:178][628]Cmd: NextDebugTarget
+[2023.11.13-08.12.15:440][839]Cmd: NextDebugTarget
+[2023.11.13-08.12.17:905][961]Cmd: NextDebugTarget
+[2023.11.13-08.12.18:572][994]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.19:037][ 17]Cmd: NextDebugTarget
+[2023.11.13-08.12.19:522][ 41]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.19:926][ 61]Cmd: NextDebugTarget
+[2023.11.13-08.12.23:464][236]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.23:850][255]Cmd: NextDebugTarget
+[2023.11.13-08.12.24:193][272]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.27:045][413]Cmd: NextDebugTarget
+[2023.11.13-08.12.30:241][571]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.36:169][864]Cmd: NextDebugTarget
+[2023.11.13-08.12.36:816][896]Cmd: PreviousDebugTarget
+[2023.11.13-08.12.50:854][ 63]Cmd: NextDebugTarget
+[2023.11.13-08.12.59:925][174]Cmd: PreviousDebugTarget
+[2023.11.13-08.13.24:551][973]Cmd: NextDebugTarget
+[2023.11.13-08.13.27:638][126]Cmd: NextDebugTarget
+[2023.11.13-08.13.28:464][167]Cmd: PreviousDebugTarget
+[2023.11.13-08.13.29:050][196]Cmd: PreviousDebugTarget
+[2023.11.13-08.15.35:196][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-08.15.35:196][924]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-08.15.35:197][924]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-08.15.35:198][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-08.15.35:207][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.13-08.15.35:212][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-08.15.35:226][924]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.13-08.15.35:227][924]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.11.13-08.15.35:227][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.13-08.15.35:229][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.13-08.15.35:239][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-08.15.35:244][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.11.13-08.15.35:343][925]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.11.13-08.16.57:069][312]Candidate modules for hot reload:
+[2023.11.13-08.16.57:069][312]  Aura
+[2023.11.13-08.16.57:075][312]Launching UnrealBuildTool... [E:/Unreal/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Aura,2623 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk]
+[2023.11.13-08.16.57:081][312]Warning: Starting HotReload took  0.0s.
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: New page: 컴파일 - 2023. 11. 14. 오전 2:17:07
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Aura,2623 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Log file: C:\Users\USER\AppData\Local\UnrealBuildTool\Log.txt
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Project\Aura).
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Building AuraEditor...
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Using Visual Studio 2022 14.36.32542 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Upgrade]
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in AuraEditor.Target.cs.
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Upgrade]
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [Adaptive Build] Excluded from Aura unity file: AuraAttributeSet.cpp
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2023.11.13-08.17.07:634][801]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: ------ Building 7 action(s) started ------
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [1/7] Compile [x64] AuraPlayerState.cpp
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [2/7] Compile [x64] AuraAttributeSet.cpp
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [3/7] Compile [x64] AuraAttributeSet.gen.cpp
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [4/7] Compile [x64] AuraEnemy.cpp
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [5/7] Link [x64] UnrealEditor-Aura-2623.lib
+[2023.11.13-08.17.07:634][801]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2623.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2623.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [6/7] Link [x64] UnrealEditor-Aura-2623.dll
+[2023.11.13-08.17.07:634][801]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2623.sup.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-2623.sup.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: [7/7] WriteMetadata AuraEditor.target
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Total time in Parallel executor: 8.56 seconds
+[2023.11.13-08.17.07:634][801]CompilerResultsLog: Total execution time: 10.31 seconds
+[2023.11.13-08.17.07:634][801]LogMainFrame: MainFrame: Module compiling took 10.579 seconds
+[2023.11.13-08.17.07:651][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.13-08.17.07:879][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.11.13-08.17.07:915][801]Display: HotReload took 10.9s.
+[2023.11.13-08.17.07:915][801]Display: Reload/Re-instancing Complete: 1 package changed, 9 classes unchanged, 4 functions remapped
+[2023.11.13-08.17.09:834][873]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.11.13-08.17.09:842][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.13-08.17.09:842][873]PIE: New page: PIE 세션: StartupMap (2023. 11. 14. 오전 2:17:09)
+[2023.11.13-08.17.09:842][873]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-08.17.09:846][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003823s)
+[2023.11.13-08.17.09:846][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.003867s)
+[2023.11.13-08.17.09:912][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.11.13-08.17.09:918][873]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-08.17.09:918][873]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-08.17.09:919][873]LogAIModule: Creating AISystem for world StartupMap
+[2023.11.13-08.17.09:919][873]LogPlayLevel: PIE: World Init took: (0.005513s)
+[2023.11.13-08.17.09:919][873]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.13-08.17.09:919][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.13-08.17.09:919][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.13-08.17.09:920][873]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.13-08.17.09:920][873]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.13-08.17.09:920][873]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.13-08.17.09:922][873]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.13-08.17.10:029][873]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2023.11.13-08.17.10:029][873]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.13-08.17.10:029][873]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.13-08.17.10:029][873]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.13-08.17.10:030][873]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.11.13-08.17.10:030][873]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.11.13-08.17.10:033][873]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.11.13-08.17.10:033][873]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.11.13-08.17.10:033][873]LogInit: FAudioDevice initialized with ID 3.
+[2023.11.13-08.17.10:033][873]LogAudio: Display: Audio Device (ID: 3) registered with world 'StartupMap'.
+[2023.11.13-08.17.10:033][873]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.11.13-08.17.10:036][873]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2023.11.13-08.17.10:038][873]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.11.13-17.17.10
+[2023.11.13-08.17.10:039][873]LogWorld: Bringing up level for play took: 0.002502
+[2023.11.13-08.17.10:041][873]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.11.13-08.17.10:044][873]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.13-08.17.10:044][873]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.13-08.17.10:044][873]PIE: 서버가 로그인했습니다.
+[2023.11.13-08.17.10:045][873]PIE: 에디터에서 플레이 총 시작 시간 0.204초입니다.
+[2023.11.13-08.17.19:161][525]Cmd: showdebug attribute
+[2023.11.13-08.17.33:093][347]Cmd: showdebug abilitysystem
+[2023.11.13-08.17.49:668][261]Cmd: showdebug attribute
+[2023.11.13-08.17.51:826][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-08.17.51:826][363]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-08.17.51:826][363]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-08.17.51:826][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-08.17.51:834][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.13-08.17.51:839][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-08.17.51:852][363]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.13-08.17.51:853][363]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.11.13-08.17.51:853][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.13-08.17.51:857][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.13-08.17.51:864][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-08.17.51:867][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.13-08.17.51:944][364]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.11.13-08.17.53:584][440]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.11.13-08.17.53:591][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.13-08.17.53:591][440]PIE: New page: PIE 세션: StartupMap (2023. 11. 14. 오전 2:17:53)
+[2023.11.13-08.17.53:591][440]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-08.17.53:594][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003546s)
+[2023.11.13-08.17.53:594][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.003587s)
+[2023.11.13-08.17.53:609][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.13-08.17.53:610][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-08.17.53:610][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-08.17.53:610][440]LogAIModule: Creating AISystem for world StartupMap
+[2023.11.13-08.17.53:611][440]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2023.11.13-08.17.53:611][440]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.13-08.17.53:611][440]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.13-08.17.53:611][440]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.13-08.17.53:612][440]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.13-08.17.53:612][440]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.13-08.17.53:612][440]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.13-08.17.53:614][440]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.13-08.17.53:718][440]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2023.11.13-08.17.53:718][440]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.13-08.17.53:718][440]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.13-08.17.53:718][440]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.13-08.17.53:718][440]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.11.13-08.17.53:718][440]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.11.13-08.17.53:721][440]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.11.13-08.17.53:721][440]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.11.13-08.17.53:721][440]LogInit: FAudioDevice initialized with ID 4.
+[2023.11.13-08.17.53:721][440]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartupMap'.
+[2023.11.13-08.17.53:721][440]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.11.13-08.17.53:724][440]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2023.11.13-08.17.53:726][440]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.11.13-17.17.53
+[2023.11.13-08.17.53:727][440]LogWorld: Bringing up level for play took: 0.002753
+[2023.11.13-08.17.53:729][440]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.11.13-08.17.53:733][440]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.13-08.17.53:733][440]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.13-08.17.53:733][440]PIE: 서버가 로그인했습니다.
+[2023.11.13-08.17.53:733][440]PIE: 에디터에서 플레이 총 시작 시간 0.143초입니다.
+[2023.11.13-08.17.57:907][812]Cmd: showdebug attribute
+[2023.11.13-08.18.02:279][106]Cmd: showdebug abilitysystem
+[2023.11.13-08.23.40:439][506]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:08.305 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 35723 files in 36762 folders with total size 2270 MiB.
