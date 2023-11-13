@@ -1560,3 +1560,306 @@ Script Stack (0 frames) :
 [2023.11.13-08.17.57:907][812]Cmd: showdebug attribute
 [2023.11.13-08.18.02:279][106]Cmd: showdebug abilitysystem
 [2023.11.13-08.23.40:439][506]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:08.305 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 35723 files in 36762 folders with total size 2270 MiB.
+[2023.11.13-08.37.20:096][473]Running E:/Unreal/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="E:/Project/Aura/Aura.uproject" -game -rocket -progress
+[2023.11.13-08.37.20:208][473]Using bundled DotNet SDK version: 6.0.302
+[2023.11.13-08.37.20:208][473]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="E:/Project/Aura/Aura.uproject" -game -rocket -progress
+[2023.11.13-08.37.21:015][473]Log file: C:\Users\USER\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.11.13-08.37.21:419][473]
+[2023.11.13-08.37.21:419][473]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.11.13-08.37.21:419][473]See the log file for detailed information
+[2023.11.13-08.37.21:419][473]
+[2023.11.13-08.37.21:419][473]
+[2023.11.13-08.37.21:419][473]Generating VisualStudio project files:
+[2023.11.13-08.37.21:419][473]Discovering modules, targets and source code for project...
+[2023.11.13-08.37.22:832][473]Binding IntelliSense data...
+[2023.11.13-08.37.23:135][473]Module 'GamePlayAbilities' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayAbilities'?
+[2023.11.13-08.37.23:135][473]Module 'GamePlayTags' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayTags'?
+[2023.11.13-08.37.23:135][473]Module 'GamePlayTasks' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayTasks'?
+[2023.11.13-08.37.23:135][473]Module 'GamePlayAbilities' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayAbilities'?
+[2023.11.13-08.37.26:469][473]Binding IntelliSense data... 100%
+[2023.11.13-08.37.26:469][473]Creating common properties file...
+[2023.11.13-08.37.26:469][473]Creating common properties file... 0%
+[2023.11.13-08.37.26:469][473]Writing project files...
+[2023.11.13-08.37.27:780][473]Writing project files... 100%
+[2023.11.13-08.37.27:780][473]
+[2023.11.13-08.37.27:780][473]Generating QueryTargets data for editor...
+[2023.11.13-08.37.32:744][473]LogSlate: Window '메시지' being destroyed
+[2023.11.13-08.37.32:749][473]Message dialog closed, result: Yes, title: 메시지, text: 'AuraEffectActor' 클래스 추가에 성공했으나, 'Aura' 리컴파일을 해야 콘텐츠 브라우저에 나타납니다.
+
+지금 코드를 편집하시겠습니까?
+[2023.11.13-08.37.33:211][473]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2023.11.13-08.37.33:228][474]LogAutomationController: Ignoring very large delta of 14.12 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-08.37.39:686][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-08.37.39:687][618]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-08.37.39:687][618]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-08.37.39:687][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-08.37.39:694][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.13-08.37.39:699][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-08.37.39:711][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-08.37.39:712][618]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.11.13-08.37.39:712][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.11.13-08.37.39:714][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.11.13-08.37.39:723][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.13-08.37.39:797][619]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.11.13-08.39.02:682][ 84]Candidate modules for hot reload:
+[2023.11.13-08.39.02:682][ 84]  Aura
+[2023.11.13-08.39.02:690][ 84]Launching UnrealBuildTool... [E:/Unreal/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Aura,6737 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk]
+[2023.11.13-08.39.02:696][ 84]Warning: Starting HotReload took  0.1s.
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: New page: 컴파일 - 2023. 11. 14. 오전 2:39:36
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Aura,6737 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Log file: C:\Users\USER\AppData\Local\UnrealBuildTool\Log.txt
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Project\Aura).
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Creating makefile for AuraEditor (no existing makefile)
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Module 'GamePlayAbilities' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayAbilities'?
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Module 'GamePlayTags' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayTags'?
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Module 'GamePlayTasks' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayTasks'?
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Module 'GamePlayAbilities' (referenced via Target -> Aura.Build.cs) has incorrect text case. Did you mean 'GameplayAbilities'?
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Error: E:\Project\Aura\Source\Aura\Private\Character\AuraCharacter.cpp(1) : error: Expected AuraCharacter.h to be first header included.
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Building AuraEditor...
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Using Visual Studio 2022 14.36.32542 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Upgrade]
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in AuraEditor.Target.cs.
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Upgrade]
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [Adaptive Build] Excluded from Aura unity file: AuraEffectActor.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2023.11.13-08.39.36:340][172]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: ------ Building 10 action(s) started ------
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [1/10] Compile [x64] Aura.init.gen.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [2/10] Compile [x64] AuraEffectActor.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [3/10] Compile [x64] AuraEffectActor.gen.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [4/10] Compile [x64] AuraPlayerState.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [5/10] Compile [x64] AuraAttributeSet.gen.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [6/10] Compile [x64] AuraEnemy.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [7/10] Compile [x64] AuraAttributeSet.cpp
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [8/10] Link [x64] UnrealEditor-Aura-6737.lib
+[2023.11.13-08.39.36:340][172]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-6737.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-6737.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [9/10] Link [x64] UnrealEditor-Aura-6737.dll
+[2023.11.13-08.39.36:340][172]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-6737.sup.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-6737.sup.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: [10/10] WriteMetadata AuraEditor.target
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Total time in Parallel executor: 25.65 seconds
+[2023.11.13-08.39.36:340][172]CompilerResultsLog: Total execution time: 33.18 seconds
+[2023.11.13-08.39.36:340][172]LogMainFrame: MainFrame: Module compiling took 33.677 seconds
+[2023.11.13-08.39.36:357][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.13-08.39.36:400][172]LogClass: UPackage /Script/Aura Reload.
+[2023.11.13-08.39.36:409][172]LogClass: Could not find existing class AuraEffectActor in package /Script/Aura for reload, assuming new or modified class
+[2023.11.13-08.39.36:561][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.13-08.39.36:597][172]Display: HotReload took 34.0s.
+[2023.11.13-08.39.36:597][172]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 9 classes unchanged, 4 functions remapped
+[2023.11.13-09.23.40:453][278]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:08.319 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 35723 files in 36762 folders with total size 2270 MiB.
+[2023.11.13-09.31.39:792][ 39]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2023.11.13-09.31.39:807][ 39]LogContentBrowser: Creating deferred item: 새 폴더
+[2023.11.13-09.31.39:821][ 40]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2023.11.13-09.31.43:904][268]LogContentBrowser: Attempting asset rename: 새 폴더 -> Actor
+[2023.11.13-09.31.43:904][268]LogContentBrowser: End creating deferred item 새 폴더
+[2023.11.13-09.31.47:258][334]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.11.13-09.31.55:415][429]LogSlate: Window '부모 클래스 선택' being destroyed
+[2023.11.13-09.31.55:427][429]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.11.13-09.31.55:436][429]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.11.13-09.31.55:445][430]LogAutomationController: Ignoring very large delta of 7.28 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-09.31.55:470][431]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.11.13-09.32.03:895][816]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_HealthPosion
+[2023.11.13-09.32.03:912][816]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.11.13-09.32.04:298][835]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/BP_HealthPosion.BP_HealthPosion
+[2023.11.13-09.32.04:299][835]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-09.32.04:299][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-09.32.04:485][835]LogViewport: Scene viewport resized to 861x691, mode Windowed.
+[2023.11.13-09.32.25:095][268]LogContentBrowser: Attempting asset rename: BP_HealthPosion -> BP_HealthPotion
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.SKEL_BP_HealthPotion_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.SKEL_BP_HealthPotion_C' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:147][268]LogMetaData: Removing '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Actor/BP_HealthPosion.PackageMetaData'
+[2023.11.13-09.32.25:164][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.13-09.32.25:209][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/BP_HealthPotion" FILE="../../../../../Project/Aura/Content/Blueprints/Actor/BP_HealthPotion.uasset" SILENT=true
+[2023.11.13-09.32.25:222][268]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.011113 seconds
+[2023.11.13-09.32.25:231][268]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' for saving '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C'
+[2023.11.13-09.32.25:231][268]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' for saving '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C'
+[2023.11.13-09.32.25:233][268]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/BP_HealthPotion
+[2023.11.13-09.32.25:233][268]LogSavePackage: Moving '../../../../../Project/Aura/Saved/BP_HealthPotionFCB1600540ADA18230F3F4947A9159C2.tmp' to '../../../../../Project/Aura/Content/Blueprints/Actor/BP_HealthPotion.uasset'
+[2023.11.13-09.32.25:250][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms
+[2023.11.13-09.32.25:369][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.11.13-09.32.25:417][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.11.13-09.32.25:437][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.11.13-09.32.25:441][268]AssetCheck: New page: 에셋 저장:  BP_HealthPotion
+[2023.11.13-09.32.25:441][268]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion 유효성 검사 중
+[2023.11.13-09.32.40:311][857]Candidate modules for hot reload:
+[2023.11.13-09.32.40:311][857]  Aura
+[2023.11.13-09.32.40:318][857]Launching UnrealBuildTool... [E:/Unreal/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Aura,7635 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk]
+[2023.11.13-09.32.40:324][857]Warning: Starting HotReload took  0.0s.
+[2023.11.13-09.32.48:324][233]CompilerResultsLog: New page: 컴파일 - 2023. 11. 14. 오전 3:32:48
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Aura,7635 AuraEditor Win64 Development -Project="E:/Project/Aura/Aura.uproject" "E:/Project/Aura/Aura.uproject"  -IgnoreJunk
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Log file: C:\Users\USER\AppData\Local\UnrealBuildTool\Log.txt
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Project\Aura).
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Building AuraEditor...
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Using Visual Studio 2022 14.36.32542 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Upgrade]
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in AuraEditor.Target.cs.
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Upgrade]
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [Adaptive Build] Excluded from Aura unity file: AuraEffectActor.cpp
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2023.11.13-09.32.48:325][233]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [1/6] Compile [x64] Aura.init.gen.cpp
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [2/6] Compile [x64] AuraEffectActor.gen.cpp
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [3/6] Compile [x64] AuraEffectActor.cpp
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-Aura-7635.lib
+[2023.11.13-09.32.48:325][233]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-7635.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-7635.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-Aura-7635.dll
+[2023.11.13-09.32.48:325][233]CompilerResultsLog:    E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-7635.sup.lib ??̺귯?? ??E:\Project\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura-7635.sup.exp ??ü?? ??ϰ????ϴ?
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: [6/6] WriteMetadata AuraEditor.target
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Total time in Parallel executor: 6.10 seconds
+[2023.11.13-09.32.48:325][233]CompilerResultsLog: Total execution time: 7.76 seconds
+[2023.11.13-09.32.48:325][233]LogMainFrame: MainFrame: Module compiling took 8.030 seconds
+[2023.11.13-09.32.48:339][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.13-09.32.48:386][233]LogClass: UPackage /Script/Aura Reload.
+[2023.11.13-09.32.48:386][233]LogClass: UClass AuraEffectActor Reload.
+[2023.11.13-09.32.48:395][233]LogClass: Could not find existing class AuraEffectActor in package /Script/Aura for reload, assuming new or modified class
+[2023.11.13-09.32.48:395][233]LogClass: Function EndOverlap is new or belongs to a modified class.
+[2023.11.13-09.32.48:395][233]LogClass: Function OnOverlap is new or belongs to a modified class.
+[2023.11.13-09.32.48:427][233]Re-instancing AuraEffectActor after reload.
+[2023.11.13-09.32.48:586][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.13-09.32.48:622][233]Display: HotReload took  8.3s.
+[2023.11.13-09.32.48:622][233]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 9 classes unchanged, 4 functions remapped
+[2023.11.13-09.33.09:276][ 76]LogStaticMesh: Display: SM_PotionBottle 스태틱 메시 빌드 중...
+[2023.11.13-09.33.09:292][ 76]LogStaticMesh: Display: 스태틱 메시가 준비 되기를 기다리는 중 0/1 (/Game/Assets/Pickups/Potions/SM_PotionBottle)...
+[2023.11.13-09.33.09:316][ 76]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Pickups/Potions/SM_PotionBottle.SM_PotionBottle
+[2023.11.13-09.33.09:328][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-09.33.09:455][ 78]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Cork/T_Cork_BaseColor.T_Cork_BaseColor(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.09:501][ 79]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Cork/T_Cork_Normal.T_Cork_Normal(TFO_BC5, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.10:650][166]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_BaseColor.Potion_low_Bottle_BaseColor(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.10:703][169]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Cork/T_Cork_OcclusionRoughnessMetallic.T_Cork_OcclusionRoughnessMetallic(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.12:123][297]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Emissive.Potion_low_Bottle_Emissive(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.12:232][304]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Normal.Potion_low_Bottle_Normal(TFO_BC5, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.13:198][363]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Opacity.Potion_low_Bottle_Opacity(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1104.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.13:336][371]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_OcclusionRoughnessMetallic.Potion_low_Bottle_OcclusionRoughnessMetallic(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.14:166][442]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Emissive.T_WhiteLiquid_Emissive(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1104.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: ================================================
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Total job queries 54, among them cache hits 30 (55.56%)
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Tracking 15 distinct input hashes that result in 9 distinct outputs (60.00%)
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: RAM used: 312.72 KiB of 1.60 GiB budget. Usage: 0.02%
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Jobs assigned 3, completed 1 (33.33%)
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Time job spent in pending queue: average 1.71 s, longest 5.05 s
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Job execution time: average 5.02 s, max 5.02 s
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Job life time (pending + execution): average 5.06 s, max 5.06
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Shader code size: average 37.676 KiB, min 37.676 KiB, max 37.676 KiB
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.06 s
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Average processing rate: 0.20 jobs/sec
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Total thread time: 1.76 s
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Total thread preprocess time: 0.077 s
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Percentage time preprocessing: 4.39%
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Effective parallelization: 0.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.76 sec, max 1.76 sec, min 1.76 sec)
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.76 sec, max 1.76 sec, min 1.76 sec)
+[2023.11.13-09.33.14:410][452]LogShaderCompilers: Display: ================================================
+[2023.11.13-09.33.14:436][453]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_BaseColor.T_WhiteLiquid_BaseColor(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.15:452][535]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_OcclusionRoughnessMetallic.T_WhiteLiquid_OcclusionRoughnessMetallic(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.15:518][539]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Normal.T_WhiteLiquid_Normal(TFO_BC5, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.16:297][597]LogTexture: Display: 텍스처 빌드 중: /Game/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Opacity.T_WhiteLiquid_Opacity(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1104.062484MB), 인코딩 속도: Fast
+[2023.11.13-09.33.38:538][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.11.13-09.33.38:539][110]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.082
+[2023.11.13-09.33.38:540][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Actor/BP_HealthPotion] ([2] browsable assets)...
+[2023.11.13-09.33.38:541][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-09.33.38:658][110]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C]
+[2023.11.13-09.33.38:675][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion]
+[2023.11.13-09.33.38:675][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/BP_HealthPotion]
+[2023.11.13-09.33.38:675][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/BP_HealthPotion" FILE="../../../../../Project/Aura/Saved/Autosaves/Game/Blueprints/Actor/BP_HealthPotion_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.11.13-09.33.38:681][110]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' for saving '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C'
+[2023.11.13-09.33.38:681][110]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' for saving '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C'
+[2023.11.13-09.33.38:682][110]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Actor/BP_HealthPotion_Auto1
+[2023.11.13-09.33.38:682][110]LogSavePackage: Moving '../../../../../Project/Aura/Saved/BP_HealthPotion_Auto1314D029B4749542FB7AF7083C526F41A.tmp' to '../../../../../Project/Aura/Saved/Autosaves/Game/Blueprints/Actor/BP_HealthPotion_Auto1.uasset'
+[2023.11.13-09.33.38:683][110]LogFileHelpers: Auto-saving content packages took 0.143
+[2023.11.13-09.34.39:438][431]LogEditorTransaction: Undo 컴포넌트 수정
+[2023.11.13-09.35.01:072][481]BlueprintLog: New page: BP_HealthPotion 컴파일
+[2023.11.13-09.35.01:164][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.11.13-09.35.01:990][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.13-09.35.02:069][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/BP_HealthPotion" FILE="../../../../../Project/Aura/Content/Blueprints/Actor/BP_HealthPotion.uasset" SILENT=true
+[2023.11.13-09.35.02:072][553]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' for saving '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C'
+[2023.11.13-09.35.02:073][553]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C' for saving '/Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C'
+[2023.11.13-09.35.02:074][553]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/BP_HealthPotion
+[2023.11.13-09.35.02:075][553]LogSavePackage: Moving '../../../../../Project/Aura/Saved/BP_HealthPotion6AC9FF0B4D96B2AF734C0E87B1EA48B2.tmp' to '../../../../../Project/Aura/Content/Blueprints/Actor/BP_HealthPotion.uasset'
+[2023.11.13-09.35.02:085][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 181 ms)
+[2023.11.13-09.35.02:094][553]AssetCheck: New page: 에셋 저장:  BP_HealthPotion
+[2023.11.13-09.35.02:094][553]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion 유효성 검사 중
+[2023.11.13-09.35.07:771][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.11.13-09.35.09:549][877]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C
+[2023.11.13-09.35.09:549][877]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C
+[2023.11.13-09.35.09:550][877]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion as actor: BP_HealthPotion_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_HealthPotion_C_0
+[2023.11.13-09.35.09:551][877]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion as actor: BP_HealthPotion_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_HealthPotion_C_0
+[2023.11.13-09.35.09:558][877]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.13-09.35.10:414][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C
+[2023.11.13-09.35.10:415][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion_C
+[2023.11.13-09.35.10:417][933]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion as actor: BP_HealthPotion_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_HealthPotion_C_1
+[2023.11.13-09.35.10:417][933]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/BP_HealthPotion.BP_HealthPotion as actor: BP_HealthPotion_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_HealthPotion_C_1
+[2023.11.13-09.35.14:959][ 91]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.11.13-09.35.14:971][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.13-09.35.14:971][ 91]PIE: New page: PIE 세션: StartupMap (2023. 11. 14. 오전 3:35:14)
+[2023.11.13-09.35.14:971][ 91]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-09.35.14:975][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003844s)
+[2023.11.13-09.35.14:975][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.003896s)
+[2023.11.13-09.35.14:990][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.13-09.35.14:991][ 91]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-09.35.14:992][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-09.35.14:992][ 91]LogAIModule: Creating AISystem for world StartupMap
+[2023.11.13-09.35.14:992][ 91]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2023.11.13-09.35.14:993][ 91]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.13-09.35.14:993][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.13-09.35.14:993][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.13-09.35.14:993][ 91]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.13-09.35.14:993][ 91]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.13-09.35.14:993][ 91]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.13-09.35.14:996][ 91]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.13-09.35.15:101][ 91]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2023.11.13-09.35.15:102][ 91]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.13-09.35.15:102][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.13-09.35.15:102][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.13-09.35.15:103][ 91]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.11.13-09.35.15:104][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.11.13-09.35.15:106][ 91]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.11.13-09.35.15:106][ 91]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.11.13-09.35.15:106][ 91]LogInit: FAudioDevice initialized with ID 5.
+[2023.11.13-09.35.15:106][ 91]LogAudio: Display: Audio Device (ID: 5) registered with world 'StartupMap'.
+[2023.11.13-09.35.15:106][ 91]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.11.13-09.35.15:113][ 91]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2023.11.13-09.35.15:116][ 91]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.11.13-18.35.15
+[2023.11.13-09.35.15:117][ 91]LogWorld: Bringing up level for play took: 0.003453
+[2023.11.13-09.35.15:120][ 91]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.11.13-09.35.15:126][ 91]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.13-09.35.15:127][ 91]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.13-09.35.15:127][ 91]PIE: 서버가 로그인했습니다.
+[2023.11.13-09.35.15:128][ 91]PIE: 에디터에서 플레이 총 시작 시간 0.161초입니다.
+[2023.11.13-09.35.26:194][563]Cmd: showdebug abilitysystem
+[2023.11.13-09.35.33:537][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-09.35.33:537][914]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.11.13-09.35.33:537][914]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-09.35.33:538][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-09.35.33:560][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.13-09.35.33:565][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-09.35.33:581][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-09.35.33:582][914]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.11.13-09.35.33:582][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.11.13-09.35.33:587][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.11.13-09.35.33:597][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.13-09.35.33:751][915]LogPlayLevel: Display: Destroying online subsystem :Context_15
