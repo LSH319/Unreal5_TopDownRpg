@@ -1,0 +1,63 @@
+GAS(GameplayAbilitySystem)
+관련 깃허브 링크 : https://github.com/tranek/GASDocumentation
+
+게임플레이 어빌리티 시스템(Gameplay Ability System) 은 RPG나 MOBA 타이틀에서 볼 수 있는 어빌리티 및 어트리뷰트 유형을 구축하기 위한 
+고도로 유연한 프레임워크입니다. 
+게임 내 캐릭터가 사용할 액션이나 패시브 어빌리티, 이러한 액션의 결과로 다양한 어트리뷰트를 높이거나 낮추는 상태 이펙트를 만들 수 있고, 
+'재사용 대기 시간' 타이머나 자원 비용을 구현하여 액션의 사용 빈도를 조절하거나, 
+어빌리티의 레벨과 레벨에 따른 이펙트를 변경하거나, 
+파티클 및 사운드 이펙트를 활성화하는 등의 작업이 가능합니다. 
+게임플레이 어빌리티 시스템을 사용하면 점프처럼 단순한 것부터 최신 RPG나 MOBA 
+타이틀 내 인기 캐릭터의 기술 모음처럼 복잡한 것까지 다양한 인게임 어빌리티를 설계 및 구현하고 효과적으로 연결할 수 있습니다.
+->언리얼 공식문서 설명
+
+GAS 추가 시 Gameplay Abilities 플러그인 활성화, build.cs의 PublicDependencyModuleNames에  'GameplayAbilities', 'GameplayTags', 'GameplayTasks' 추가
+
+핵심 : GameplayEffect, GameplayTag, GameplayCue
+
+
+Ability System Component(ASC) 의 리플리케이션 모드는 3가지
+FULL -> 싱글플레이 사용, 모든 GameplayEffect 가 모든 클라이언트에게
+Mixed, Minimal
+공통정 -> GameplayTag, GameplayCue 는 모든 클라이언트에게 복제
+차이점 -> Mixed는 GameplayEffect가 소유 클라이언트에서만 복제, Minimal은 복제 X
+
+GAS는 owner actor, avatar actor가 존재
+owner actor-> 실제 ASC의 소유자
+avatar actor -> 화면에서 나오는 액터
+owner actor과 avatar actor 는 같을수도, 다를수도 있음
+
+현재 프로젝트에서 AI가 제어하는 적들은 다 액터가 같고,
+플레이어의 경우 owner -> player state, avatar -> aura charater 로 다른상태
+owner와 avatar가 다르고, pawn이 ASC의 소유자가 아닐 경우
+PossessedBy(서버사이드) 와 OnRep_PlayerState(클라이언트 사이드)에서 두번의 초기화 필요
+
+attribute
+각종 실수값의 데이터(채력, 마나 등)
+attribute는 attribute set 안에 존대하며 관리됨
+attribute set 은 ASC가 소유
+attribute의 변경은 GameplayEffect에 의해서 일어남
+BaseValue와 CurrentValue
+BaseValue를 최댓값으로 생각하는 경우가 종종 있지만, 엄연히 다르며 그렇게 작성하는것은 실수
+
+예측
+GAS에서 값 변경을 할 경우 그에대한 예측을 통한 동작이 가능
+attribute의 값을 클라이언트에서 먼저 변경 -> 서버에 해당 데이터 요청 -> 서버에서 적합성 판단 후 승인 혹은 롤백 명령 전송
+장점 : 클라이언트에서 즉각 변경이 일어나 서버와의 통신 도중 일어나는 딜레이가 없음
+
+attribute 값 추가시(in c++)
+ReplicatedUsing 을 통한 서버 복제시 행동 지정
+GAMEPLAYATTRIBUTE_REPNOTIFY(AttributeSet, Value, OldValue)를 통한 값 변경 알림
+GetLifetimeReplicatedProps 내 DOREPLIFETIME_CONDITION_NOTIFY 를 통한 복제에 대한 세팅
+
+attribute 매크로
+#define ATTRIBUTE_ACCESSORS(ClassName, PropertyName) \
+ 	GAMEPLAYATTRIBUTE_PROPERTY_GETTER(ClassName, PropertyName) \
+ 	GAMEPLAYATTRIBUTE_VALUE_GETTER(PropertyName) \
+ 	GAMEPLAYATTRIBUTE_VALUE_SETTER(PropertyName) \
+ 	GAMEPLAYATTRIBUTE_VALUE_INITTER(PropertyName)
+위 선언을 통한 매크로 사용 가능(AttributeSet.h),
+SETTER와 INITTER 의 차이 : INITTER는 BaseValue까지 변경
+
+IAbilitySystemInterface 상속시
+GetAbilitySystemComponent 의 구현 필수
