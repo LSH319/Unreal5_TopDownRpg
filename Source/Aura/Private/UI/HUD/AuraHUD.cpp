@@ -13,6 +13,9 @@ UOverlayWidgetController* AAuraHUD::GetOverlayWidgetController(const FWidgetCont
 		OverlayWidgetController = NewObject<UOverlayWidgetController>(this, OverlayWidgetControllerClass);
 		OverlayWidgetController->SetWidgetControllerParams(WCParams);
 
+		//WidgetController에서 Attribute 변경시 콜백 등록
+		OverlayWidgetController->BindCallbackToDependencies();
+
 		return OverlayWidgetController;
 	}
 	return OverlayWidgetController;
@@ -31,6 +34,9 @@ void AAuraHUD::InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySyst
 
 	//Widget에 WidgetController에 대한 종속성 추가
 	OverlayWidget->SetWidgetController(WidgetController);
+
+	//WidgetController에서 Widget들에 기본값 전송
+	WidgetController->BroadcastInitialValues();
 
 	Widget->AddToViewport();
 }
