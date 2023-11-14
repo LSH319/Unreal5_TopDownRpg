@@ -13,6 +13,9 @@ git config --global http.postBuffer 524288000 로 버퍼를 늘리거나
 git config --global http.version HTTP/1.1 로 http 변경을 했으나 오류가 계속 발생
 force를 통해 강제 push도 시도해보았으나 실패
 
+saved 폴더가 gitignore 에 있는데더 커밋되는 현상 발생
+git rm -r --cached . 로 캐시 삭제 푸 커밋하여 해결
+
 프로젝트를 처음부터 다시 만든 후 푸쉬 여부 확인
 푸쉬 확인 후 이전 작업물 진행
 그 후 커밋내역 확인하는 도중 gitignore가 작동하지 않음을 인지
@@ -30,3 +33,7 @@ build.cs에 모듈을 추가 한 후 enhanced input 해더파일 추가 및 사�
 APlayerController를 상속받아서 override 하는데 AController에 없는 멤버 오류가 발생
 딴데서 오타 났던거, 그냥 에디터가 인식을 못하는 문제
 IDE 업데이트 하니까 해결
+
+
+
+
