@@ -13,8 +13,8 @@ GAS(GameplayAbilitySystem)
 
 GAS 추가 시 Gameplay Abilities 플러그인 활성화, build.cs의 PublicDependencyModuleNames에  'GameplayAbilities', 'GameplayTags', 'GameplayTasks' 추가
 
-핵심 : GameplayEffect, GameplayTag, GameplayCue
 
+핵심 : GameplayEffect, GameplayTag, GameplayCue
 
 Ability System Component(ASC) 의 리플리케이션 모드는 3가지
 FULL -> 싱글플레이 사용, 모든 GameplayEffect 가 모든 클라이언트에게
@@ -34,11 +34,12 @@ PossessedBy(서버사이드) 와 OnRep_PlayerState(클라이언트 사이드)에
 
 attribute
 각종 실수값의 데이터(채력, 마나 등)
-attribute는 attribute set 안에 존대하며 관리됨
+attribute는 attribute set 안에 등록되어 관리됨
 attribute set 은 ASC가 소유
 attribute의 변경은 GameplayEffect에 의해서 일어남
 BaseValue와 CurrentValue
 BaseValue를 최댓값으로 생각하는 경우가 종종 있지만, 엄연히 다르며 그렇게 작성하는것은 실수
+attribute set은 여러개가 존재할 수 있지만, 같은 클래스의 attribute set은 존재 불가
 
 예측
 GAS에서 값 변경을 할 경우 그에대한 예측을 통한 동작이 가능

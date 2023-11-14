@@ -30,3 +30,7 @@ build.cs에 모듈을 추가 한 후 enhanced input 해더파일 추가 및 사�
 APlayerController를 상속받아서 override 하는데 AController에 없는 멤버 오류가 발생
 딴데서 오타 났던거, 그냥 에디터가 인식을 못하는 문제
 IDE 업데이트 하니까 해결
+
+
+
+
