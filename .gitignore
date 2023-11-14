@@ -14,3 +14,6 @@ Build
 *.suo
 *.xcodeproj
 *.xcworkspace
+
+Saved/
+Saved/*
