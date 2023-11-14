@@ -4,6 +4,8 @@
 #include "Character/AuraCharacter.h"
 #include "Player/AuraPlayerState.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Player/AuraPlayerController.h"
+#include "UI/HUD/AuraHUD.h"
 
 AAuraCharacter::AAuraCharacter()
 {
@@ -43,4 +45,19 @@ void AAuraCharacter::InitAbilityActorInfo()
 	AuraPlayerState->GetAbilitySystemComponent()->InitAbilityActorInfo(AuraPlayerState, this);
 	AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
 	AttributeSet = AuraPlayerState->GetAttributeSet();
+
+	if (AAuraPlayerController* AuraPlayerController = Cast<AAuraPlayerController>(GetController()))
+	{
+		if (AAuraHUD* AuraHUD = Cast<AAuraHUD>(AuraPlayerController->GetHUD()))
+		{
+			//AuraPlayerController, AuraPlayerState, AbilitySystemComponent, AttributeSet 4가지가 다 존재하는 위치
+			/*
+			AuraHUD->InitOverlay
+			WidgetController가 null 일 경우 WidgetController 을 생성, null이 아닐경우 기존에 있던 WidgetController 사용
+			Widget에 WidgetController에 대한 종속성 추가
+			뷰포트에 widget 추가
+			*/
+			AuraHUD->InitOverlay(AuraPlayerController, AuraPlayerState, AbilitySystemComponent, AttributeSet);
+		}
+	}
 }
