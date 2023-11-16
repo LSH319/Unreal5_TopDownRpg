@@ -62,3 +62,9 @@ SETTER와 INITTER 의 차이 : INITTER는 BaseValue까지 변경
 
 IAbilitySystemInterface 상속시
 GetAbilitySystemComponent 의 구현 필수
+
+GameEffect 의 Stack
+aggregate by source VS target
+limit count 가 2일 경우
+source -> hp회복 효과가 3개 들어올 경우 2개까지 적용, 이 상황에서 mp 회복효과가 들어올 경우 별개의 카운트로 취급하여 적용 가능
+target -> hp회복 효과가 3개 들어올 경우 2개까지 적용, 이 상황에서 mp 회복효과가 들어올 경우 limit count 초과로 인해 미적용
