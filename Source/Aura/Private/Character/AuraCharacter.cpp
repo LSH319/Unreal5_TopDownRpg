@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "AbilitySystemComponent.h"
 #include "Character/AuraCharacter.h"
+#include "AbilitySystemComponent.h"
 #include "Player/AuraPlayerState.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Player/AuraPlayerController.h"
@@ -63,4 +63,6 @@ void AAuraCharacter::InitAbilityActorInfo()
 			AuraHUD->InitOverlay(AuraPlayerController, AuraPlayerState, AbilitySystemComponent, AttributeSet);
 		}
 	}
+	
+	InitializePrimaryAttributes();
 }
