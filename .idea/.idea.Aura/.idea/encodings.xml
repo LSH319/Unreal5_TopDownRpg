@@ -3,6 +3,7 @@
   <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
     <file url="file://$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAbilitySystemComponent.cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerState.cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Source/Aura/Private/UI/HUD/AuraHUD.cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/OverlayWidgetController.cpp" charset="x-windows-949" />
     <file url="PROJECT" charset="x-windows-949" />
