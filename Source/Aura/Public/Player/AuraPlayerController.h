@@ -7,7 +7,7 @@
 #include "GameplayTagContainer.h"
 #include "AuraPlayerController.generated.h"
 
-
+class UDamageTextComponent;
 class USplineComponent;
 class UInputMappingContext;
 class UInputAction;
@@ -28,6 +28,8 @@ public:
 	AAuraPlayerController();
 	virtual void PlayerTick(float DeltaTime) override;
 
+	UFUNCTION(Client, Reliable)
+	void ShowDamageNumber(float DamageAmount, ACharacter* TargetCharacter);
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
@@ -78,4 +80,7 @@ private:
 	TObjectPtr<USplineComponent> Spline;
 
 	void AutoRun();
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<UDamageTextComponent> DamageTextComponentClass;
 };
