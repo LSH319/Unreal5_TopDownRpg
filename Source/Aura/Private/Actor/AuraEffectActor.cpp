@@ -22,6 +22,8 @@ void AAuraEffectActor::BeginPlay()
 
 void AAuraEffectActor::ApplyEffectToTarget(AActor* TargetActor, TSubclassOf<UGameplayEffect> GameplayEffectClass)
 {//이벤트 호출 시 입력받은 GameplayEffectClass 실행
+	if (TargetActor->ActorHasTag(FName("Enemy")) && !bApplyEffectsToEnemies) return;
+	
 	UAbilitySystemComponent* TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor);
 
 	if (TargetASC == nullptr) return;
@@ -41,15 +43,22 @@ void AAuraEffectActor::ApplyEffectToTarget(AActor* TargetActor, TSubclassOf<UGam
 		//ASC 내부에서 여러개가 동작하고 있을 수 있으므로 타겟 식별을 위해 map 형식 사용
 		ActiveEffectHandles.Add(ActiveEffectHandle, TargetASC); 
 	}
+
+	if (!bIsInfinite)
+	{
+		Destroy();
+	}
 }
 
 void AAuraEffectActor::OnOverlap(AActor* TargetActor)
 {
-	if (InstanceEffectApplicatonPolicy == EEffectApplicationPolicy::ApplyOnOverlap)
+	if (TargetActor->ActorHasTag(FName("Enemy")) && !bApplyEffectsToEnemies) return;
+	
+	if (InstanceEffectApplicationPolicy == EEffectApplicationPolicy::ApplyOnOverlap)
 	{
 		ApplyEffectToTarget(TargetActor, InstanceGameplayEffectClass);
 	}
-	if (DurationEffectApplicatonPolicy == EEffectApplicationPolicy::ApplyOnOverlap)
+	if (DurationEffectApplicationPolicy == EEffectApplicationPolicy::ApplyOnOverlap)
 	{
 		ApplyEffectToTarget(TargetActor, DurationInstanceGameplayEffectClass);
 	}
@@ -61,11 +70,13 @@ void AAuraEffectActor::OnOverlap(AActor* TargetActor)
 
 void AAuraEffectActor::OnEndOverlap(AActor* TargetActor)
 {
-	if (InstanceEffectApplicatonPolicy == EEffectApplicationPolicy::ApplyOnEndOverlap)
+	if (TargetActor->ActorHasTag(FName("Enemy")) && !bApplyEffectsToEnemies) return;
+	
+	if (InstanceEffectApplicationPolicy == EEffectApplicationPolicy::ApplyOnEndOverlap)
 	{
 		ApplyEffectToTarget(TargetActor, InstanceGameplayEffectClass);
 	}
-	if (DurationEffectApplicatonPolicy == EEffectApplicationPolicy::ApplyOnEndOverlap)
+	if (DurationEffectApplicationPolicy == EEffectApplicationPolicy::ApplyOnEndOverlap)
 	{
 		ApplyEffectToTarget(TargetActor, DurationInstanceGameplayEffectClass);
 	}
