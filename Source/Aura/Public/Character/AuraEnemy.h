@@ -27,13 +27,18 @@ public:
 	//~ Begin Enemy Interface
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
+	virtual void SetCombatTarget_Implementation(AActor* InCombatTarget) override;
+	virtual AActor* GetCombatTarget_Implementation() const override;
 	//~ End Enemy Interface
-
+	
 	//~ Begin Combat Interface
 	virtual int32 GetPlayerLevel() override;
 	virtual void Die() override;
 	//~ End Combat Interface
 
+	UPROPERTY(BlueprintReadWrite, Category = "Combat")
+	TObjectPtr<AActor> CombatTarget;
+	
 	UPROPERTY(BlueprintAssignable)
 	FOnAttributeChangedSigneture OnHealthChanged;
 	
